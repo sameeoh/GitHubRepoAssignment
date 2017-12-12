@@ -1,0 +1,51 @@
+C:\Users\Sam Oh\Desktop\gittest>cd desktop
+The system cannot find the path specified.
+
+C:\Users\Sam Oh\Desktop\gittest>md GitHubRepoAssignment
+
+C:\Users\Sam Oh\Desktop\gittest>rd GitHubRepoAssignment
+
+C:\Users\Sam Oh\Desktop\gittest>cd ..
+
+C:\Users\Sam Oh\Desktop>md GitHubRepoAssignment
+
+C:\Users\Sam Oh\Desktop>cd GitHubRepoAssignment
+
+C:\Users\Sam Oh\Desktop\GitHubRepoAssignment>git init
+Initialized empty Git repository in C:/Users/Sam Oh/Desktop/GitHubRepoAssignment
+/.git/
+
+C:\Users\Sam Oh\Desktop\GitHubRepoAssignment>copy nul readme.md
+        1 file(s) copied.
+
+C:\Users\Sam Oh\Desktop\GitHubRepoAssignment>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        readme.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\Sam Oh\Desktop\GitHubRepoAssignment>git add .
+
+C:\Users\Sam Oh\Desktop\GitHubRepoAssignment>git commit -m "initial commit"
+[master (root-commit) 856d0ed] initial commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 readme.md
+
+C:\Users\Sam Oh\Desktop\GitHubRepoAssignment>git remote add origin https://githu
+b.com/sameeoh/GitHubRepoAssignment.git
+
+C:\Users\Sam Oh\Desktop\GitHubRepoAssignment>git push -u origin master
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 205 bytes | 205.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/sameeoh/GitHubRepoAssignment.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+C:\Users\Sam Oh\Desktop\GitHubRepoAssignment>
